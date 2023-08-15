@@ -12,7 +12,11 @@ title: Status
 ### Example Query
 
 ```sql
-
+SELECT 
+	[statusId]
+    ,[status]
+FROM 
+	[dbo].[status]
 ```
 
 ### Example Output

@@ -17,7 +17,26 @@ title: Driver Standings
 ### Example Query
 
 ```sql
+SELECT 
+	r.[raceId]
+	,r.name AS [race_name]
+	,d.[driverId]
+	,CONCAT(d.forename, ' ',d.surname) AS [driver_name]
+	,[points]
+	,[position]
+	,[positionText]
+	,[wins]
+FROM 
+	[dbo].[driverStandings] ds
 
+    INNER JOIN [dbo].[races] r
+		ON r.raceId = ds.raceId
+
+	INNER JOIN [dbo].[drivers] d
+		ON d.driverId = ds.driverId
+WHERE
+	r.year = '2023'
+	AND d.driverId = 1
 ```
 
 ### Example Output

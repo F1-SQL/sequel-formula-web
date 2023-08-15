@@ -12,7 +12,11 @@ title: Nationalities
 ### Example Query
 
 ```sql
-
+SELECT 
+	[nationalityID]
+    ,[nationality]
+FROM 
+	[dbo].[nationalities]
 ```
 
 ### Example Output

@@ -19,7 +19,32 @@ title: Qualifying
 ### Example Query
 
 ```sql
+SELECT 
+	[qualifyId]
+	,r.[raceId]
+	,r.name AS [race_name]
+	,d.[driverId]
+	,CONCAT(d.forename,' ',d.surname) AS [driver_name]
+	,c.[constructorId]
+	,c.name AS [constructor_name]
+	,q.[number]
+	,[position]
+	,[q1]
+	,[q2]
+	,[q3]
+FROM 
+	[dbo].[qualifying] q
 
+	INNER JOIN [dbo].[races] r
+		ON q.raceId = r.raceId
+
+	INNER JOIN [dbo].[drivers] d
+		ON d.driverId = q.driverId
+
+	INNER JOIN [dbo].[constructors] c
+		ON c.constructorId = q.constructorId
+WHERE 
+	r.year = '2023'
 ```
 
 ### Example Output

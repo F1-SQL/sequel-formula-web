@@ -12,7 +12,11 @@ title: Locations
 ### Example Query
 
 ```sql
-
+SELECT 
+	[locationID]
+    ,[locationName]
+FROM
+	[dbo].[locations]
 ```
 
 ### Example Output

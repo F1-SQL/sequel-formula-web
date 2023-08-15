@@ -28,7 +28,33 @@ title: Races
 ### Example Query
 
 ```sql
+SELECT 
+	[raceId]
+	,[year]
+	,[round]
+	,c.[circuitId]
+	,c.name AS [circuit_name]
+	,r.[name] AS [race_name]
+	,[date]
+	,[time]
+	,r.[url]
+	,[fp1_date]
+	,[fp1_time]
+	,[fp2_date]
+	,[fp2_time]
+	,[fp3_date]
+	,[fp3_time]
+	,[quali_date]
+	,[quali_time]
+	,[sprint_date]
+	,[sprint_time]
+FROM 
+	[dbo].[races] r
 
+	INNER JOIN [dbo].[circuits] c 
+		ON r.circuitId = c.circuitId
+WHERE 
+	[year] = '2023'
 ```
 
 ### Example Output

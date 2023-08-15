@@ -20,7 +20,22 @@ title: Drivers
 ### Example Query
 
 ```sql
+SELECT 
+	[driverId]
+	,[driverRef]
+	,[number]
+	,[code]
+	,[forename]
+	,[surname]
+	,[dob]
+	,[url]
+	,n.[nationalityID]
+	,n.nationality
+FROM 
+	[dbo].[drivers] d
 
+	INNER JOIN [dbo].[nationalities] n
+		ON n.nationalityID = d.nationalityID
 ```
 
 ### Example Output

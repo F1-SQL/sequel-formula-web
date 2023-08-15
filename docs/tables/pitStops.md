@@ -17,7 +17,27 @@ title: Pit Stops
 ### Example Query
 
 ```sql
+SELECT
+	r.[raceId]
+	,r.name AS [race_name]
+	,d.[driverId]
+	,CONCAT(d.forename, ' ',d.surname) AS [driver_name]
+	,[stop]
+	,[lap]
+	,ps.[time]
+	,[duration]
+	,[milliseconds]
+FROM 
+	[dbo].[pitStops] ps
 
+	INNER JOIN [dbo].[races] r
+		ON r.raceId = ps.raceId
+
+	INNER JOIN [dbo].[drivers] d
+		ON d.driverId = ps.driverId
+WHERE
+	r.year = '2023'
+	AND r.name = 'Australian Grand Prix'
 ```
 
 ### Example Output

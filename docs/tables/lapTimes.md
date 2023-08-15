@@ -16,7 +16,26 @@ title: Lap Times
 ### Example Query
 
 ```sql
+SELECT 
+	r.[raceId]
+	,r.name AS [race_name]
+	,d.[driverId]
+	,CONCAT(d.forename, ' ',d.surname) AS [driver_name]
+    ,[lap]
+    ,[position]
+    ,lt.[time]
+    ,[milliseconds]
+FROM 
+	[dbo].[lapTimes] lt
 
+  	INNER JOIN [dbo].[races] r
+		ON r.raceId = lt.raceId
+
+	INNER JOIN [dbo].[drivers] d
+		ON d.driverId = lt.driverId
+WHERE 
+	r.year = '2023'
+	AND r.name = 'Australian Grand Prix'
 ```
 
 ### Example Output

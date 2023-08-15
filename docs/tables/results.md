@@ -13,7 +13,6 @@ title: Results
 | **number** |  | INT | ☑ |  | Driver number | 
 | **grid** |  | INT | ☐ | 0 | Starting grid position | 
 | **position** |  | INT | ☑ |  | Official classification, if applicable | 
-| **positionText** |  | VARCHAR(255) | ☐ |  |  | 
 | **positionOrder** |  | INT | ☐ | 0 | Driver position for ordering purposes | 
 | **points** |  | FLOAT | ☐ | 0 | Driver points for race | 
 | **laps** |  | INT | ☐ | 0 | Number of completed laps | 
@@ -29,7 +28,48 @@ title: Results
 ### Example Query
 
 ```sql
+SELECT 
+	[resultId]
+    ,ra.name AS [race_name]
+	,sea.year
+    ,CONCAT(d.forename, ' ',d.surname) AS [driver_name]
+    ,c.name AS [constructor]
+    ,r.[number]
+    ,[grid]
+    ,[position]
+    ,[positionOrder]
+    ,[points]
+    ,[laps]
+    ,r.[time]
+    ,[milliseconds]
+    ,[fastestLap]
+	,r.rank
+    ,[fastestLapTime]
+    ,s.status
+    ,pt.positionText
+FROM 
+	[dbo].[results] r
 
+	INNER JOIN [dbo].[races] ra
+		ON r.raceId = ra.raceId
+
+	INNER JOIN [dbo].[drivers] d 
+		ON d.driverId = r.driverId
+
+	INNER JOIN [dbo].[constructors] c
+		ON c.constructorId = r.constructorId
+
+	LEFT JOIN [dbo].[status] s 
+		ON s.statusId = r.statusId
+
+	LEFT JOIN [dbo].[positionText] pt 
+		ON pt.positionTextID = r.positionTextID
+
+	INNER JOIN [dbo].[seasons] sea
+		ON sea.year = ra.year
+WHERE
+	ra.year = '2023'
+	AND ra.name = 'British Grand Prix'
 ```
 
 ### Example Output

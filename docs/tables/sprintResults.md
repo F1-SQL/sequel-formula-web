@@ -27,7 +27,40 @@ title: Sprint Results
 ### Example Query
 
 ```sql
+SELECT 
+	[resultId]
+    ,r.name AS [race_name]
+    ,CONCAT(d.forename, ' ',d.surname) AS [driver_name]
+    ,c.name AS [constructor]
+    ,sr.[number]
+    ,[grid]
+    ,[position]
+    ,[positionOrder]
+    ,[points]
+    ,[laps]
+    ,sr.[time]
+    ,[milliseconds]
+    ,[fastestLap]
+    ,[fastestLapTime]
+    ,s.status
+    ,pt.positionText
+FROM 
+	[dbo].[sprintResults] sr
 
+	INNER JOIN [dbo].[races] r 
+		ON r.raceId = sr.raceId
+
+	INNER JOIN [dbo].[drivers] d 
+		ON d.driverId = sr.driverId
+
+	INNER JOIN [dbo].[constructors] c
+		ON c.constructorId = sr.constructorId
+
+	LEFT JOIN [dbo].[status] s 
+		ON s.statusId = sr.statusId
+
+	LEFT JOIN [dbo].[positionText] pt 
+		ON pt.positionTextID = sr.positionTextID
 ```
 
 ### Example Output

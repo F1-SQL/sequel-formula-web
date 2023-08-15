@@ -7,7 +7,11 @@
 ### Example Query
 
 ```sql
-
+SELECT 
+	[countryID]
+    ,[country]
+FROM 
+	[dbo].[countries]
 ```
 
 ### Example Output

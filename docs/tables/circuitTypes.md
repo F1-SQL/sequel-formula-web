@@ -12,7 +12,11 @@ title: Circuit Types
 ### Example Query
 
 ```sql
-
+SELECT 
+	[circuitTypeID]
+	,[circuitType]
+FROM 
+	[dbo].[circuitTypes]
 ```
 
 ### Example Output

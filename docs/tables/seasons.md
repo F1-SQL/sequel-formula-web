@@ -12,7 +12,11 @@ title: Seasons
 ### Example Query
 
 ```sql
-
+SELECT 
+	[year]
+    ,[url]
+FROM 
+	[dbo].[seasons]
 ```
 
 ### Example Output

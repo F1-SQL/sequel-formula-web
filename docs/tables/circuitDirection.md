@@ -12,7 +12,11 @@ title: Circuit Direction
 ### Example Query
 
 ```sql
-
+SELECT 
+	[circuitDirectionID]
+	,[circuitDirection]
+FROM 
+	[dbo].[circuitDirection]
 ```
 
 ### Example Output

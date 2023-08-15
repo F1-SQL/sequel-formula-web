@@ -16,7 +16,18 @@ title: Constructors
 ### Example Query
 
 ```sql
+SELECT 
+	[constructorId]
+	,[constructorRef]
+	,[name]
+	,[url]
+	,n.[nationalityID]
+	,n.nationality
+FROM 
+	[SequelFormula].[dbo].[constructors] c 
 
+	INNER JOIN [dbo].[nationalities] n
+		ON n.nationalityID = c.nationalityID
 ```
 
 ### Example Output

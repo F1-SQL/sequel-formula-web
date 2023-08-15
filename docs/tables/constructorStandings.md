@@ -17,7 +17,25 @@ title: Constructor Standings
 ### Example Query
 
 ```sql
+SELECT 
+	[constructorStandingsId]
+	,r.[raceId]
+	,r.date AS [race_date]
+	,c.[constructorId]
+	,c.name AS [constructor]
+	,[points]
+	,points, 
+	position, 
+	positionText, 
+	wins
+FROM 
+	[dbo].[constructorStandings] cs
 
+	INNER JOIN [dbo].[races] r 
+		ON r.raceId = cs.raceId
+
+	INNER JOIN [dbo].[constructors] c 
+		ON c.constructorId = cs.constructorId
 ```
 
 ### Example Output
