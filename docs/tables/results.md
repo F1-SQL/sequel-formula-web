@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+pagination_next: null
+pagination_prev: null
 title: Results
 ---
 
@@ -27,7 +29,6 @@ title: Results
 
 ### Table Relationships
 
-This table has no foreign keys with any other tables
 
 ### Example Query
 
