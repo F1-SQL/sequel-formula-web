@@ -9,9 +9,11 @@ title: Constructors
 | **constructorId** |  Primary Key | INT | ☐ |  |  | 
 | **constructorRef** |  | VARCHAR(255) | ☐ |  | Unique constructor identifier | 
 | **name** |  | VARCHAR(255) | ☐ |  | Constructor name | 
-| **nationality** |  | VARCHAR(255) | ☑ |  |  | 
 | **url** |  | VARCHAR(2048) | ☐ |  | Constructor Wikipedia page | 
-| **nationalityID** |  | INT | ☑ |  | Foreign Key to nationalities | 
+| **nationalityID** | FK_constructors_NationalityID (dbo.nationalities nationalityID) | INT | ☑ |  | Foreign Key to nationalities | 
+
+### Table Relationships
+
 
 ### Example Query
 

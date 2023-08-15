@@ -13,6 +13,9 @@ title: Lap Times
 | **time** |  | VARCHAR(255) | ☑ |  | Lap time in milliseconds | 
 | **milliseconds** |  | INT | ☑ |  | Lap time in milliseconds | 
 
+### Table Relationships
+
+
 ### Example Query
 
 ```sql

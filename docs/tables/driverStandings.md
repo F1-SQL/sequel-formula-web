@@ -14,6 +14,9 @@ title: Driver Standings
 | **positionText** |  | VARCHAR(255) | ☑ |  |  | 
 | **wins** |  | INT | ☐ | 0 | Driver standings position (string) | 
 
+### Table Relationships
+
+
 ### Example Query
 
 ```sql

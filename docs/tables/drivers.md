@@ -13,9 +13,11 @@ title: Drivers
 | **forename** |  | VARCHAR(255) | ☐ |  | Driver forename | 
 | **surname** |  | VARCHAR(255) | ☐ |  | Driver surname | 
 | **dob** |  | DATE | ☑ |  | Driver date of birth | 
-| **nationality** |  | VARCHAR(255) | ☑ |  |  | 
 | **url** |  | VARCHAR(2048) | ☐ |  | Driver Wikipedia page | 
-| **nationalityID** |  | INT | ☑ |  | Foreign Key to nationalities | 
+| **nationalityID** | FK_Drivers_NationalityID (dbo.nationalities nationalityID) | INT | ☑ |  | Foreign Key to nationalities | 
+
+### Table Relationships
+
 
 ### Example Query
 

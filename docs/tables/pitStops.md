@@ -14,6 +14,9 @@ title: Pit Stops
 | **duration** |  | VARCHAR(255) | ☑ |  | Duration of stop in milliseconds | 
 | **milliseconds** |  | INT | ☑ |  | Duration of stop in milliseconds | 
 
+### Table Relationships
+
+
 ### Example Query
 
 ```sql

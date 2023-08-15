@@ -12,6 +12,9 @@ title: Constructor Results
 | **points** |  | FLOAT | ☑ |  | Constructor points for race | 
 | **positionTextID** | FK_ConstructorResults_positionTextID (dbo.positionText positionTextID) | INT | ☑ |  | Foreign Key link to postitionText | 
 
+### Table Relationships
+
+
 ### Example Query
 
 ```sql

@@ -13,7 +13,6 @@ title: Sprint Results
 | **number** |  | INT | ☐ | 0 | Driver number | 
 | **grid** |  | INT | ☐ | 0 | Starting grid position | 
 | **position** |  | INT | ☑ |  | Official classification, if applicable | 
-| **positionText** |  | VARCHAR(255) | ☐ |  |  | 
 | **positionOrder** |  | INT | ☐ | 0 | Driver position for ordering purposes | 
 | **points** |  | FLOAT | ☐ | 0 | Driver points for race | 
 | **laps** |  | INT | ☐ | 0 | Number of completed laps | 
@@ -23,6 +22,9 @@ title: Sprint Results
 | **fastestLapTime** |  | VARCHAR(255) | ☑ |  | Lap number of fastest lap | 
 | **statusId** | FK_SprintResults_StatusID (dbo.status statusId) | INT | ☐ | 0 | Foreign key link to status table | 
 | **positionTextID** | FK_SprintResults_PositionTextID (dbo.positionText positionTextID) | INT | ☑ |  | Foreign key link to positionText | 
+
+### Table Relationships
+
 
 ### Example Query
 

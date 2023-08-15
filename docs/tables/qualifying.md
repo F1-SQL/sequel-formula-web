@@ -16,6 +16,9 @@ title: Qualifying
 | **q2** |  | VARCHAR(255) | ☑ |  | Q2 lap time | 
 | **q3** |  | VARCHAR(255) | ☑ |  | Q3 lap time | 
 
+### Table Relationships
+
+
 ### Example Query
 
 ```sql

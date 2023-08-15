@@ -9,6 +9,10 @@ title: Circuit Direction
 | **circuitDirectionID** |  Primary Key | INT | ☐ |  |  | 
 | **circuitDirection** |  | VARCHAR(255) | ☑ |  | Direction of circuit E.G. Clockwise | 
 
+### Table Relationships
+
+This table has no foreign keys with any other tables
+
 ### Example Query
 
 ```sql

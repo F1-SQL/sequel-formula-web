@@ -9,6 +9,10 @@ title: Locations
 | **locationID** |  Primary Key | INT | ☐ |  |  | 
 | **locationName** |  | VARCHAR(255) | ☑ |  | Location Name E.G. Las Vegas | 
 
+### Table Relationships
+
+This table has no foreign keys with any other tables
+
 ### Example Query
 
 ```sql

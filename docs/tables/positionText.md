@@ -9,6 +9,10 @@ title: Position Text
 | **positionTextID** |  Primary Key | INT | ☐ |  |  | 
 | **positionText** |  | VARCHAR(50) | ☑ |  | Text of the outcome of the race, E.G. "D" for Disqualified | 
 
+### Table Relationships
+
+This table has no foreign keys with any other tables
+
 ### Example Query
 
 ```sql

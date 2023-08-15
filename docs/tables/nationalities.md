@@ -9,6 +9,10 @@ title: Nationalities
 | **nationalityID** |  Primary Key | INT | ☐ |  |  | 
 | **nationality** |  | VARCHAR(50) | ☑ |  | Nationality E.G. British | 
 
+### Table Relationships
+
+This table has no foreign keys with any other tables
+
 ### Example Query
 
 ```sql

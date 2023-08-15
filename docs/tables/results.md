@@ -25,6 +25,10 @@ title: Results
 | **statusId** | FK_Results_StatusID (dbo.status statusId) | INT | ☐ | 0 | Fastest lap speed (km/h) e.g. "213.874" | 
 | **positionTextID** | FK_Results_PositionTextID (dbo.positionText positionTextID) | INT | ☑ |  | Foreign Key link to positionText | 
 
+### Table Relationships
+
+This table has no foreign keys with any other tables
+
 ### Example Query
 
 ```sql

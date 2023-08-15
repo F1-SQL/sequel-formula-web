@@ -25,6 +25,9 @@ title: Races
 | **sprint_date** |  | DATE | ☑ |  | Sprint date | 
 | **sprint_time** |  | TIME | ☑ |  | Sprint start time | 
 
+### Table Relationships
+
+
 ### Example Query
 
 ```sql

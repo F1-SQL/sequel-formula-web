@@ -9,6 +9,10 @@ title: Status
 | **statusId** |  Primary Key | INT | ☐ |  |  | 
 | **status** |  | VARCHAR(255) | ☐ |  | Finishing status e.g. "Retired" | 
 
+### Table Relationships
+
+This table has no foreign keys with any other tables
+
 ### Example Query
 
 ```sql

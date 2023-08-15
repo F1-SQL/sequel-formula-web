@@ -9,6 +9,10 @@ title: Circuit Types
 | **circuitTypeID** |  Primary Key | INT | ☐ |  |  | 
 | **circuitType** |  | VARCHAR(50) | ☑ |  | Type of circuit E.G. Street | 
 
+### Table Relationships
+
+This table has no foreign keys with any other tables
+
 ### Example Query
 
 ```sql

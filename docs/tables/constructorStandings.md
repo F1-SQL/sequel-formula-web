@@ -14,6 +14,9 @@ title: Constructor Standings
 | **positionText** |  | VARCHAR(255) | ☑ |  | Constructor standings position | 
 | **wins** |  | INT | ☐ | 0 | Season win count | 
 
+### Table Relationships
+
+
 ### Example Query
 
 ```sql
