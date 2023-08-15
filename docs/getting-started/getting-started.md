@@ -10,7 +10,7 @@ title: Getting Started
 
 The easiest way to get started is to download the latest release from GitHub [here](http://www.google.com) and restore one of the available backups to your instance. 
 
-You can find out if your version of SQL Server is supported by Sequel Formula [here](/about/supported-versions)
+You can find out if your version of SQL Server is supported by Sequel Formula [here](../about/supported-versions)
 
 ### Restoring the database
 
