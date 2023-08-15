@@ -1,0 +1,22 @@
+---
+sidebar_position: 1
+title: Lap Times
+---
+
+### [dbo.lapTimes]
+| Column name | Key | Data type | Allow NULLs | Default | Description |
+| ------- | ------- | ------- | ------- | ------- | ------- |
+| **raceId** |  Primary Key | INT | ☐ |  | Foreign key link to races table | 
+| **driverId** |  Primary Key | INT | ☐ |  | Lap number | 
+| **lap** |  Primary Key | INT | ☐ |  | Lap number | 
+| **position** |  | INT | ☑ |  | Driver race position | 
+| **time** |  | VARCHAR(255) | ☑ |  | Lap time in milliseconds | 
+| **milliseconds** |  | INT | ☑ |  | Lap time in milliseconds | 
+
+### Example Query
+
+```sql
+
+```
+
+### Example Output
