@@ -14,7 +14,7 @@ You can find out if your version of SQL Server is supported by Sequel Formula [h
 
 ### Restoring the database
 
-
+Once you have the database downloaded, you will want to go ahead and restore it to you instance, we have a guide on how to do that, [here](database-restore).
 
 ### Next Steps
 
