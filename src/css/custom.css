@@ -18,6 +18,19 @@ h1 {
   font-weight: normal;
 }
 
+a { 
+
+  color: orange;
+
+}
+
+a:hover { 
+
+  color: orange;
+  font-weight: bold;
+
+}
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2B4562;
