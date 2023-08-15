@@ -5,9 +5,9 @@ pagination_prev: null
 title: Database Restore
 ---
 
-In this section, we will demonstrate how to restore a Sequel Formula backup to your instance of Microsoft SQL Server, to begin, make sure that you are running a [supported version](./about/supported-versions). You can of course try and restore to any version of SQL Server, but these are the only versions we officially [support](./about/supported-versions).
+In this section, we will demonstrate how to restore a Sequel Formula backup to your instance of Microsoft SQL Server, to begin, make sure that you are running a [supported version](../about/supported-versions). You can of course try and restore to any version of SQL Server, but these are the only versions we officially [support](../about/supported-versions).
 
-We are going to assume you have downloaded the latest release from the link in the [getting started](./about/getting-started) section of this documentation.
+We are going to assume you have downloaded the latest release from the link in the [getting started](../about/getting-started) section of this documentation.
 
 ## Step By Step Guide
 
