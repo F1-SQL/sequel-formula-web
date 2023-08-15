@@ -16,8 +16,8 @@ title: Circuits
 | **url** |  | VARCHAR(255) | ☐ |  | Circuit Wikipedia page | 
 | **locationID** |  | INT | ☑ |  | Foreign key links to locations | 
 | **countryID** | FK_Circuits_CountryID (dbo.countries countryID) | INT | ☑ |  | Foreign Key link to countries | 
-| **circuitDirectionID** |  | INT | ☑ |  | Foreign key link to circuitDirection | 
-| **circuitTypeID** |  | INT | ☑ |  | Foreign key link to circuitType | 
+| **circuitDirectionID** | FK_Circuits_CircuitDirectionID (dbo.circuitDirection circuitDirectionID) | INT | ☑ |  | Foreign key link to circuitDirection | 
+| **circuitTypeID** | FK_Circuits_CircuitTypeID (dbo.circuitTypes circuitTypeID) | INT | ☑ |  | Foreign key link to circuitType | 
 
 ### Example Query
 
