@@ -11,4 +11,4 @@ The latest version of the Sequel Formula database is
 
 **Belgium 2023** this was generated on **10/08/2023** and contains all race data up to Belgium 2023.
 
-To see a list of upcoming races and their estimated availability data click [here](upcoming-races)
+To see a list of upcoming races and their estimated availability data click [here](./race-calendar/upcoming-races)
