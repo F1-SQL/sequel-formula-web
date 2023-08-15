@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+ contact_links:
+   - name: Issues found with our documentation?
+     url: https://github.com/Rich-In-SQL/Sequel-Formula/issues/new
+     about: Open an issue
