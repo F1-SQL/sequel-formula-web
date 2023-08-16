@@ -12,7 +12,7 @@ const defaultOptions = {
 module.exports = {
   title: 'Sequel Formula',
   tagline: 'A SQL Server Formula 1 Database',
-  url: 'https://Rich-In-SQL.com',
+  url: 'https://sequel-formula.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
