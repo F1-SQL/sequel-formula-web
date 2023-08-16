@@ -16,6 +16,7 @@ title: Constructor Results
 
 ### Table Relationships
 
+![Constructor Results](/img/table-relationships/constructorResults.png)
 
 ### Example Query
 

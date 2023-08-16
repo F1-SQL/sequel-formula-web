@@ -23,6 +23,7 @@ title: Circuits
 
 ### Table Relationships
 
+![Circuits](/img/table-relationships/circuits.png)
 
 ### Example Query
 
