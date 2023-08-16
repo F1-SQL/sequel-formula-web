@@ -18,6 +18,7 @@ title: Constructor Standings
 
 ### Table Relationships
 
+![Constructor Standings](/img/table-relationships/constructorStandings.png)
 
 ### Example Query
 

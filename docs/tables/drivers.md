@@ -20,6 +20,7 @@ title: Drivers
 
 ### Table Relationships
 
+![Drivers](/img/table-relationships/drivers.png)
 
 ### Example Query
 

@@ -29,6 +29,7 @@ title: Races
 
 ### Table Relationships
 
+![Races](/img/table-relationships/races.png)
 
 ### Example Query
 

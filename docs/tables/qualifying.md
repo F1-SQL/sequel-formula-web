@@ -20,6 +20,7 @@ title: Qualifying
 
 ### Table Relationships
 
+![Qualifying](/img/table-relationships/qualifying.png)
 
 ### Example Query
 

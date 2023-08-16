@@ -29,6 +29,7 @@ title: Results
 
 ### Table Relationships
 
+![Results](/img/table-relationships/results.png)
 
 ### Example Query
 

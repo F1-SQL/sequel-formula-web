@@ -18,6 +18,7 @@ title: Driver Standings
 
 ### Table Relationships
 
+![Driver Standings](/img/table-relationships/driverStandings.png)
 
 ### Example Query
 

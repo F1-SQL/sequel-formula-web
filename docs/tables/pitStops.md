@@ -18,6 +18,7 @@ title: Pit Stops
 
 ### Table Relationships
 
+![Pit Stops](/img/table-relationships/pitStops.png)
 
 ### Example Query
 

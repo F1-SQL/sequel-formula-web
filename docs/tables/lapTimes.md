@@ -17,6 +17,7 @@ title: Lap Times
 
 ### Table Relationships
 
+![Lap Times](/img/table-relationships/lapTimes.png)
 
 ### Example Query
 

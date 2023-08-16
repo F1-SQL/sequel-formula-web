@@ -27,6 +27,7 @@ title: Sprint Results
 
 ### Table Relationships
 
+![Sprint Results](/img/table-relationships/sprintResults.png)
 
 ### Example Query
 
