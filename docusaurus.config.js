@@ -82,10 +82,6 @@ module.exports = {
             label: 'Website Source',
             href: 'https://github.com/Rich-In-SQL/sequel-formula-web',
           },
-          {
-            label: 'RSS Feed',
-            href: '/blog/rss.xml',
-          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Rich In SQL. Built with Docusaurus.`,
       },
