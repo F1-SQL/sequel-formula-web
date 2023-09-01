@@ -12,8 +12,8 @@ title: Lap Times
 | **driverId** |  Primary Key | INT | ☐ |  | Lap number | 
 | **lap** |  Primary Key | INT | ☐ |  | Lap number | 
 | **position** |  | INT | ☑ |  | Driver race position | 
-| **time** |  | VARCHAR(255) | ☑ |  | Lap time in milliseconds | 
 | **milliseconds** |  | INT | ☑ |  | Lap time in milliseconds | 
+| **time** |  | TIME | ☑ |  | Lap time in milliseconds | 
 
 ### Table Relationships
 

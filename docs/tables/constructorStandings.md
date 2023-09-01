@@ -13,8 +13,8 @@ title: Constructor Standings
 | **constructorId** | FK_ConstructorStandings_ConstructorID (dbo.constructors constructorId) | INT | ☐ | 0 | Foreign key link to constructors | 
 | **points** |  | FLOAT | ☐ | 0 | Constructor points for season | 
 | **position** |  | INT | ☑ |  | Constructor standings position | 
-| **positionTextID** |  | INT | ☑ |  | Foreign key link to position text | 
 | **wins** |  | INT | ☐ | 0 | Season win count | 
+| **positionTextID** | FK_ConstructorStandings_PositionTextID (dbo.positionText positionTextID) | INT | ☑ |  |  | 
 
 ### Table Relationships
 

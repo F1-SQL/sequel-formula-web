@@ -13,8 +13,8 @@ title: Pit Stops
 | **stop** |  Primary Key | INT | ☐ |  | Stop number | 
 | **lap** |  | INT | ☐ |  | Lap number | 
 | **time** |  | TIME | ☐ |  | Time of stop e.g. "13:52:25" | 
-| **duration** |  | VARCHAR(255) | ☑ |  | Duration of stop in milliseconds | 
 | **milliseconds** |  | INT | ☑ |  | Duration of stop in milliseconds | 
+| **duration** |  | DECIMAL | ☑ |  | Duration of stop in milliseconds | 
 
 ### Table Relationships
 

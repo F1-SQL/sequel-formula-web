@@ -5,7 +5,6 @@ pagination_prev: null
 title: Circuits
 ---
 
-
 ### [dbo.circuits]
 | Column name | Key | Data type | Allow NULLs | Default | Description |
 | ------- | ------- | ------- | ------- | ------- | ------- |

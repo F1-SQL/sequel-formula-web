@@ -13,8 +13,8 @@ title: Driver Standings
 | **driverId** | FK_DriverStandings_DriverID (dbo.drivers driverId) | INT | ☐ | 0 | Foreign key link to drivers table | 
 | **points** |  | FLOAT | ☐ | 0 | Driver points for season | 
 | **position** |  | INT | ☑ |  | Driver standings position (integer) | 
-| **positionTextID** |  | INT | ☑ |  | Foreign key link to position text | 
 | **wins** |  | INT | ☐ | 0 | Driver standings position (string) | 
+| **positionTextID** | FK_DriverStandings_PositionTextID (dbo.positionText positionTextID) | INT | ☑ |  | Driver standings position (string) | 
 
 ### Table Relationships
 

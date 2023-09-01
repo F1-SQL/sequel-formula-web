@@ -14,9 +14,9 @@ title: Qualifying
 | **constructorId** | FK_Qualifying_ConstructorID (dbo.constructors constructorId) | INT | ☐ | 0 | Foreign key link to constructors table | 
 | **number** |  | INT | ☐ | 0 | Driver number | 
 | **position** |  | INT | ☑ |  | Qualifying position | 
-| **q1** |  | VARCHAR(255) | ☑ |  | Q1 lap time e.g. "1:21.374" | 
-| **q2** |  | VARCHAR(255) | ☑ |  | Q2 lap time | 
-| **q3** |  | VARCHAR(255) | ☑ |  | Q3 lap time | 
+| **q1** |  | TIME | ☑ |  | Q1 lap time e.g. "1:21.374" | 
+| **q2** |  | TIME | ☑ |  | Q2 lap time | 
+| **q3** |  | TIME | ☑ |  | Q3 lap time | 
 
 ### Table Relationships
 

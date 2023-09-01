@@ -9,7 +9,7 @@ title: Nationalities
 | Column name | Key | Data type | Allow NULLs | Default | Description |
 | ------- | ------- | ------- | ------- | ------- | ------- |
 | **nationalityID** |  Primary Key | INT | ☐ |  |  | 
-| **nationality** |  | VARCHAR(50) | ☑ |  | Nationality E.G. British | 
+| **nationality** |  | VARCHAR(50) | ☑ |  | Nationality E.G. British |  
 
 ### Table Relationships
 

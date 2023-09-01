@@ -18,14 +18,15 @@ title: Results
 | **positionOrder** |  | INT | ☐ | 0 | Driver position for ordering purposes | 
 | **points** |  | FLOAT | ☐ | 0 | Driver points for race | 
 | **laps** |  | INT | ☐ | 0 | Number of completed laps | 
-| **time** |  | VARCHAR(255) | ☑ |  | Finishing time or gap | 
 | **milliseconds** |  | INT | ☑ |  | Finishing time in milliseconds | 
 | **fastestLap** |  | INT | ☑ |  | Lap number of fastest lap | 
 | **rank** |  | INT | ☑ | 0 | Fastest lap rank, compared to other | 
-| **fastestLapTime** |  | VARCHAR(255) | ☑ |  | Fastest lap time e.g. "1:27.453" | 
-| **fastestLapSpeed** |  | VARCHAR(255) | ☑ |  | Fastest lap speed (km/h) e.g. "213.874" | 
 | **statusId** | FK_Results_StatusID (dbo.status statusId) | INT | ☐ | 0 | Fastest lap speed (km/h) e.g. "213.874" | 
 | **positionTextID** | FK_Results_PositionTextID (dbo.positionText positionTextID) | INT | ☑ |  | Foreign Key link to positionText | 
+| **fastestLapTime** |  | TIME | ☑ |  | Fastest lap time e.g. "1:27.453" | 
+| **fastestLapSpeed** |  | DECIMAL | ☑ |  | Fastest lap speed (km/h) e.g. "213.874" | 
+| **time** |  | TIME | ☑ |  | Finishing time or gap | 
+
 
 ### Table Relationships
 
