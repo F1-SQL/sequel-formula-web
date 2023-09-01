@@ -18,6 +18,8 @@ title: Driver Numbers
 
 ### Table Relationships
 
+![Driver Numbers](/img/table-relationships/driverNumbers.png)
+
 ### Example Query
 
 ```sql
