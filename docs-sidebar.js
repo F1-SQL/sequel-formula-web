@@ -27,6 +27,7 @@ const sidebars = {
   docs: [
     'welcome',
     'race-calendar/upcoming-races',
+    'about/database-stats',
     {
       type: 'category',
       label: 'Getting Started',

@@ -16,3 +16,5 @@ You can find which versions of SQL Server are supported by Sequel Formula, these
 * SQL Server 2022
 
 All backups are created using SQL Server Express as part of our database creation process, you can find out more about how this works [here](database-creation)
+
+For more information on versions of Microsoft SQL Server that are still supported by Microsoft, see [sqlserverversions.com](https://www.sqlserverversions.com/)
