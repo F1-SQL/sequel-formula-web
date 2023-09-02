@@ -36,3 +36,8 @@ FROM
 ```
 
 ### Example Output
+
+ |**constructorId**|**constructorRef**|**name**|**url**|**nationalityID**|  
+ |---|---|---|---|---| 
+ |1|mclaren|McLaren|http://en.wikipedia.org/wiki/McLaren|10| 
+ |2|bmw_sauber|BMW Sauber|http://en.wikipedia.org/wiki/BMW_Sauber|21| 

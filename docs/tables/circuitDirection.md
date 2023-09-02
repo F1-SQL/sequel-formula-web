@@ -26,3 +26,8 @@ FROM
 ```
 
 ### Example Output
+
+ |**circuitDirectionID**|**circuitDirection**|  
+ |---|---| 
+ |1|Clockwise| 
+ |2|Anti-clockwise| 

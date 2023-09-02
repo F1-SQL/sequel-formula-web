@@ -26,3 +26,8 @@ FROM
 ```
 
 ### Example Output
+
+ |**countryID**|**country**|  
+ |---|---| 
+ |1|Argentina| 
+ |2|Australia| 

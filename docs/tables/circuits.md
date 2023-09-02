@@ -46,6 +46,7 @@ WHERE
 
 ### Example Output
 
-|circuitId|circuitRef|name|location|country|lat|lng|alt|url|
-| ------- | ------- | ------- | ------- | ------- | ------- |------- |------- |------- |
-| **13** |  spa | Circuit de Spa-Francorchamps |Spa|Belgium|50.4372|5.97139|401|http://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps|
+|**circuitId**|**circuitRef**|**name**|**lat**|**lng**|**alt**|**url**|**locationID**|**countryID**|**circuitDirectionID**|**circuitTypeID**|  
+|---|---|---|---|---|---|---|---|---|---|---| 
+|1|albert_park|Albert Park Grand Prix Circuit|-37.8497|144.968|10|http://en.wikipedia.org/wiki/Melbourne_Grand_Prix_Circuit|40|2|1|1| 
+|2|sepang|Sepang International Circuit|2.76083|101.738|18|http://en.wikipedia.org/wiki/Sepang_International_Circuit|31|17|1|2| 

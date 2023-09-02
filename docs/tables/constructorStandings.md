@@ -45,3 +45,8 @@ FROM
 ```
 
 ### Example Output
+
+ |**constructorStandingsId**|**raceId**|**constructorId**|**points**|**position**|**wins**|**positionTextID**|  
+ |---|---|---|---|---|---|---| 
+ |1|18|1|14|1|1|1| 
+ |2|18|2|8|3|0|3| 

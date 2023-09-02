@@ -80,3 +80,8 @@ WHERE
 ```
 
 ### Example Output
+
+ |**resultId**|**raceId**|**driverId**|**constructorId**|**number**|**grid**|**position**|**positionOrder**|**points**|**laps**|**milliseconds**|**fastestLap**|**rank**|**statusId**|**positionTextID**|**fastestLapTime**|**fastestLapSpeed**|**time**|  
+ |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---| 
+ |1|18|1|1|22|1|1|1|10|58|5690616|39|2|1|1|00:01:27.452|218.300|01:34:50.616| 
+ |2|18|2|2|3|5|2|2|8|58|5696094|41|3|1|2|00:01:27.739|217.586|00:00:05.477| 

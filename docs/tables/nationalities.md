@@ -26,3 +26,8 @@ FROM
 ```
 
 ### Example Output
+
+ |**nationalityID**|**nationality**|  
+ |---|---| 
+ |1|nationality| 
+ |2|American| 
