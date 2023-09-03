@@ -28,6 +28,7 @@ const sidebars = {
     'welcome',
     'race-calendar/upcoming-races',
     'about/database-stats',
+    'about/versioning',
     {
       type: 'category',
       label: 'Getting Started',
@@ -105,6 +106,7 @@ const sidebars = {
       collapsible: false,
       items: [        
         'help-support/faq',
+        'help-support/known-issues',
         'help-support/contact',        
       ],
     },
