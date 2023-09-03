@@ -27,7 +27,7 @@ FROM
 
 ### Example Output
 
- |**statusId**|**status**|  
- |---|---| 
- |1|Finished| 
- |2|Disqualified| 
+|**statusId**|**status**|  
+|---|---| 
+|1|Finished| 
+|2|Disqualified| 

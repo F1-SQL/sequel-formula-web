@@ -45,4 +45,9 @@ WHERE
 	AND d.driverId = 1
 ```
 
-### Example Output
+### Example Output  
+
+|**driverStandingsId**|**raceId**|**driverId**|**points**|**position**|**wins**|**positionTextID**|  
+|---|---|---|---|---|---|---|  
+|1|18|1|10|1|1|1|  
+|2|18|2|8|2|0|2| 

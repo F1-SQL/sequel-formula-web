@@ -27,7 +27,7 @@ FROM
 
 ### Example Output
 
- |**circuitTypeID**|**circuitType**|  
- |---|---| 
- |1|Street circuit| 
- |2|Race circuit| 
+|**circuitTypeID**|**circuitType**|  
+|---|---| 
+|1|Street circuit| 
+|2|Race circuit| 

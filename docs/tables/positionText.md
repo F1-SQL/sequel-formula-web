@@ -27,7 +27,7 @@ FROM
 
 ### Example Output
 
- |**positionTextID**|**positionText**|  
- |---|---| 
- |1|1| 
- |2|2| 
+|**positionTextID**|**positionText**|  
+|---|---| 
+|1|1| 
+|2|2| 

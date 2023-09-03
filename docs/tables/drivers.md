@@ -44,3 +44,8 @@ FROM
 ```
 
 ### Example Output
+
+|**driverId**|**driverRef**|**number**|**code**|**forename**|**surname**|**dob**|**url**|**nationalityID**|  
+|---|---|---|---|---|---|---|---|---|  
+|1|hamilton|44|HAM|Lewis|Hamilton|1985-01-07|http://en.wikipedia.org/wiki/Lewis_Hamilton|10|  
+|2|heidfeld|0|HEI|Nick|Heidfeld|1977-05-10|http://en.wikipedia.org/wiki/Nick_Heidfeld|21| 

@@ -27,7 +27,7 @@ FROM
 
 ### Example Output
 
- |**locationID**|**locationName**|  
- |---|---| 
- |1|Abu Dhabi| 
- |2|Adelaide| 
+|**locationID**|**locationName**|  
+|---|---| 
+|1|Abu Dhabi| 
+|2|Adelaide| 

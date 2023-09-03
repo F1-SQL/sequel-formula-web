@@ -70,7 +70,7 @@ FROM
 
 ### Example Output
 
- |**resultId**|**raceId**|**driverId**|**constructorId**|**number**|**grid**|**position**|**positionOrder**|**points**|**laps**|**milliseconds**|**fastestLap**|**statusId**|**positionTextID**|**time**|**fastestLapTime**|  
- |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---| 
- |1|1061|830|9|33|2|1|1|3|17|1538426|14|1|1|00:25:38.426|00:01:30.013| 
- |2|1061|1|131|44|1|2|2|2|17|1539856|17|1|2|00:00:01.430|00:01:29.937| 
+|**resultId**|**raceId**|**driverId**|**constructorId**|**number**|**grid**|**position**|**positionOrder**|**points**|**laps**|**milliseconds**|**fastestLap**|**statusId**|**positionTextID**|**time**|**fastestLapTime**|  
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---| 
+|1|1061|830|9|33|2|1|1|3|17|1538426|14|1|1|00:25:38.426|00:01:30.013| 
+|2|1061|1|131|44|1|2|2|2|17|1539856|17|1|2|00:00:01.430|00:01:29.937| 

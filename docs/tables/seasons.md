@@ -27,7 +27,7 @@ FROM
 
 ### Example Output
 
- |**year**|**url**|  
- |---|---| 
- |1950|http://en.wikipedia.org/wiki/1950_Formula_One_season| 
- |1951|http://en.wikipedia.org/wiki/1951_Formula_One_season| 
+|**year**|**url**|  
+|---|---| 
+|1950|http://en.wikipedia.org/wiki/1950_Formula_One_season| 
+|1951|http://en.wikipedia.org/wiki/1951_Formula_One_season| 

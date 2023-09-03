@@ -48,3 +48,8 @@ WHERE
 ```
 
 ### Example Output
+
+|**driverNumberID**|**number**|**driverID**|**constructorID**|**season**|**sub**|**retired**|  
+|---|---|---|---|---|---|---|  
+|1|47|838|0|2016|1|0|  
+|2|2|838|0|2017|0|0| 
