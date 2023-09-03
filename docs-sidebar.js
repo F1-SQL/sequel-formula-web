@@ -27,8 +27,6 @@ const sidebars = {
   docs: [
     'welcome',
     'race-calendar/upcoming-races',
-    'about/database-stats',
-    'about/sources',
     'about/versioning',
     {
       type: 'category',
@@ -98,6 +96,8 @@ const sidebars = {
       collapsible: false,
       items: [        
         'about/database-creation',
+        'about/database-stats',
+        'about/sources',
         'about/supported-versions',       
       ],
     },
