@@ -21,4 +21,4 @@ To do this we download the latest copy of the zip file from the [Ergast](http://
 9. Once we are happy that the database has been created a backup is created. 
 10. Once the backup has been created and if the cleanDatabase flag is provided the database will be dropped from the instance. 
 
-The Source for the script we use to build the database can be found [here](https://github.com/Rich-In-SQL/Sequel-Formula/blob/main/build_database.ps1)
+The Source for the script we use to build the database can be found [here](https://github.com/Sequel-Formula/Sequel-Formula/blob/main/build_database.ps1)

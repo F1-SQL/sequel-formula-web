@@ -28,8 +28,8 @@ export default function Hello() {
             Download The Data
           </Button>
         </div> 
-        <img src="https://github.com/Rich-In-SQL/Sequel-Formula/actions/workflows/powershell.yml/badge.svg"></img>
-        <img src="https://img.shields.io/github/stars/rich-in-sql/sequel-formula"></img>    
+        <img src="https://github.com/Sequel-Formula/Sequel-Formula/actions/workflows/powershell.yml/badge.svg"></img>
+        <img src="https://img.shields.io/github/stars/Sequel-Formula/sequel-formula"></img>    
       </div>
     </Layout>
   );

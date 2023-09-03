@@ -5,7 +5,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const defaultOptions = {
-  editUrl: 'https://github.com/Rich-In-SQL/sequel-formula-web/tree/master/',
+  editUrl: 'https://github.com/Sequel-Formula/sequel-formula-web/tree/master/',
 };
 
 /** @type {import('@docusaurus/types').Config} */
@@ -65,7 +65,7 @@ module.exports = {
             position: 'left',
           },                 
           {
-            href: 'https://github.com/Rich-In-SQL/Sequel-Formula',
+            href: 'https://github.com/Sequel-Formula/Sequel-Formula',
             label: 'GitHub',
             position: 'right',
           },
@@ -76,11 +76,11 @@ module.exports = {
         links: [
           {
             label: 'GitHub',
-            href: 'https://github.com/Rich-In-SQL/Sequel-Formula',
+            href: 'https://github.com/Sequel-Formula/Sequel-Formula',
           },
           {
             label: 'Website Source',
-            href: 'https://github.com/Rich-In-SQL/sequel-formula-web',
+            href: 'https://github.com/Sequel-Formula/sequel-formula-web',
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Rich In SQL. Built with Docusaurus.`,
