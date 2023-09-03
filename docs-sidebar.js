@@ -27,7 +27,6 @@ const sidebars = {
   docs: [
     'welcome',
     'race-calendar/upcoming-races',
-    'about/versioning',
     {
       type: 'category',
       label: 'Getting Started',
@@ -96,6 +95,7 @@ const sidebars = {
       collapsible: false,
       items: [        
         'about/database-creation',
+        'about/versioning',
         'about/database-stats',
         'about/sources',
         'about/supported-versions',       
