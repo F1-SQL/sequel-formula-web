@@ -28,6 +28,7 @@ const sidebars = {
     'welcome',
     'race-calendar/upcoming-races',
     'about/database-stats',
+    'about/sources',
     'about/versioning',
     {
       type: 'category',
