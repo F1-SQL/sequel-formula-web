@@ -65,7 +65,7 @@ module.exports = {
             position: 'left',
           },                 
           {
-            href: 'https://github.com/Sequel-Formula/Sequel-Formula',
+            href: 'https://github.com/Sequel-Formula',
             label: 'GitHub',
             position: 'right',
           },
@@ -76,7 +76,7 @@ module.exports = {
         links: [
           {
             label: 'GitHub',
-            href: 'https://github.com/Sequel-Formula/Sequel-Formula',
+            href: 'https://github.com/Sequel-Formula',
           },
           {
             label: 'Website Source',
