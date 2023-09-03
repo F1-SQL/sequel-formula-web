@@ -9,4 +9,4 @@ title: Known Issues
 
 Below are a list of known issues if an issue is fixed it will be appended with the [version](../about/versioning) it was fixed in.
 
-- [constructorResults column positionTextID NULL](https://github.com/Rich-In-SQL/Sequel-Formula/issues/50)
+- [constructorResults column positionTextID NULL](https://github.com/Rich-In-SQL/Sequel-Formula/issues/50) 2023.15.0
