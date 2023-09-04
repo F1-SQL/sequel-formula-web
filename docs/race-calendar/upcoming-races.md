@@ -23,7 +23,7 @@ Below are is the race calendar for 2023, this shows all of the races, the date o
 |12|Budapest|July 23 2023|   |☑|
 |13|Spa-Francorchamps|July 30 2023|   |☑|
 |14|Zandvoort|August 27 2023|August 29 2023|☑|
-|15|Monza|September 3 2023|   |   |
+|15|Monza|September 3 2023|September 4 2023|☑|
 |16|Marina Bay|September 17 2023|   |   |
 |17|Suzuka|September 24 2023|   |   |
 |18|Losail|October 8 2023|   |   |
