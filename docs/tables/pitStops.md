@@ -20,6 +20,9 @@ title: Pit Stops
 
 ![Pit Stops](/img/table-relationships/pitStops.png)
 
+### Where Used
+Where is this table referenced and what columns are used? The below table shows that information.
+
 ### Example Query
 
 ```sql

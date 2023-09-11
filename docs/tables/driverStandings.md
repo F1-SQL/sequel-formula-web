@@ -20,6 +20,9 @@ title: Driver Standings
 
 ![Driver Standings](/img/table-relationships/driverStandings.png)
 
+### Where Used
+Where is this table referenced and what columns are used? The below table shows that information.
+
 ### Example Query
 
 ```sql

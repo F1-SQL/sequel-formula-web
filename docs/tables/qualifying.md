@@ -22,6 +22,9 @@ title: Qualifying
 
 ![Qualifying](/img/table-relationships/qualifying.png)
 
+### Where Used
+Where is this table referenced and what columns are used? The below table shows that information.
+
 ### Example Query
 
 ```sql

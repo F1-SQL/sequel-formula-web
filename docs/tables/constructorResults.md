@@ -18,6 +18,9 @@ title: Constructor Results
 
 ![Constructor Results](/img/table-relationships/constructorResults.png)
 
+### Where Used
+Where is this table referenced and what columns are used? The below table shows that information.
+
 ### Example Query
 
 ```sql

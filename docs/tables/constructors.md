@@ -18,6 +18,9 @@ title: Constructors
 
 ![Constructors](/img/table-relationships/constructors.png)
 
+### Where Used
+Where is this table referenced and what columns are used? The below table shows that information.
+
 ### Example Query
 
 ```sql

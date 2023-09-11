@@ -17,6 +17,9 @@ title: Result Driver Constructor
 
 ![Result Driver Constructor](/img/table-relationships/resultDriverConstructor.png)
 
+### Where Used
+Where is this table referenced and what columns are used? The below table shows that information.
+
 ### Example Query
 
 ```sql

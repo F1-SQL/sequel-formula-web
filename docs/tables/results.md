@@ -31,6 +31,9 @@ title: Results
 
 ![Results](/img/table-relationships/results.png)
 
+### Where Used
+Where is this table referenced and what columns are used? The below table shows that information.
+
 ### Example Query
 
 ```sql

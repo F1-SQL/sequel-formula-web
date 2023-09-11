@@ -16,6 +16,9 @@ title: Circuit Map
 
 ![Circuits](/img/table-relationships/circuitMap.png)
 
+### Where Used
+Where is this table referenced and what columns are used? The below table shows that information.
+
 ### Example Query
 
 ```sql

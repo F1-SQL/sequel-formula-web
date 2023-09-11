@@ -15,6 +15,9 @@ title: Nationalities
 
 This table has no foreign keys with any other tables
 
+### Where Used
+Where is this table referenced and what columns are used? The below table shows that information.
+
 ### Example Query
 
 ```sql

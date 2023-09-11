@@ -22,6 +22,9 @@ title: Drivers
 
 ![Drivers](/img/table-relationships/drivers.png)
 
+### Where Used
+Where is this table referenced and what columns are used? The below table shows that information.
+
 ### Example Query
 
 ```sql
