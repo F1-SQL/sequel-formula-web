@@ -9,6 +9,7 @@ Below is a list of all the tables in the Sequel Formula database, each page has 
 
 - [circuitDirection](./circuitDirection)
 - [circuits](./circuits)
+- [circuitMap](./circuitMap)
 - [circuitTypes](./circuitTypes)
 - [constructorResults](./constructorResults)
 - [constructors](./constructors)
