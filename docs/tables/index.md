@@ -24,6 +24,7 @@ Below is a list of all the tables in the Sequel Formula database, each page has 
 - [qualifying](./qualifying)
 - [races](./races)
 - [results](./results)
+- [resultType](./resultType.md)
+- [resultDriverConstructor](./resultDriverConstructor.md)
 - [seasons](./seasons)
-- [sprintResults](./sprintResults)
 - [status](./status)
