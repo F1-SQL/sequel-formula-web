@@ -13,6 +13,7 @@ title: Result Type
 
 ### Table Relationships
 
+This table has no foreign keys with any other tables
 
 ### Example Query
 
