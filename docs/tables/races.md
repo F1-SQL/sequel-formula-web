@@ -34,6 +34,17 @@ title: Races
 ### Where Used
 Where is this table referenced and what columns are used? The below table shows that information.
 
+### [dbo.races]
+| Parent_schemaName | Parent_tableName | Parent_columnName | Schema | table | column | constraint_name |
+| ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+| dbo | races | raceId | dbo | pitStops | raceId | FK_PitStops_RaceID | 
+| dbo | races | raceId | dbo | lapTimes | raceId | FK_LapTimes_RaceID | 
+| dbo | races | raceId | dbo | driverStandings | raceId | FK_DriverStandings_RaceID | 
+| dbo | races | raceId | dbo | constructorStandings | raceId | FK_ConstructorStandings_RaceID | 
+| dbo | races | raceId | dbo | constructorResults | raceId | FK_ConstructorResults_RaceID | 
+| dbo | races | raceId | dbo | qualifying | raceId | FK_Qualifying_RaceID | 
+| dbo | races | raceId | dbo | results | raceId | FK_Results_RaceID | 
+
 ### Example Query
 
 ```sql

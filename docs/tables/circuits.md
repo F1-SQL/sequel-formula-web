@@ -25,6 +25,12 @@ title: Circuits
 ### Where Used
 Where is this table referenced and what columns are used? The below table shows that information.
 
+### [dbo.circuits]
+| Parent_schemaName | Parent_tableName | Parent_columnName | Schema | table | column | constraint_name |
+| ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+| dbo | circuits | circuitId | dbo | circuitMap | circuitId | FK_circuitMap_circuitId | 
+| dbo | circuits | circuitId | dbo | races | circuitId | FK_Races_CircuitID | 
+
 ### Example Query
 
 ```sql

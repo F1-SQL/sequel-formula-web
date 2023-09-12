@@ -34,6 +34,11 @@ title: Results
 ### Where Used
 Where is this table referenced and what columns are used? The below table shows that information.
 
+### [dbo.results]
+| Parent_schemaName | Parent_tableName | Parent_columnName | Schema | table | column | constraint_name |
+| ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+| dbo | results | resultId | dbo | resultDriverConstructor | resultID | PK_resultDriverConstructor_resultID | 
+
 ### Example Query
 
 ```sql

@@ -25,6 +25,16 @@ title: Drivers
 ### Where Used
 Where is this table referenced and what columns are used? The below table shows that information.
 
+### [dbo.drivers]
+| Parent_schemaName | Parent_tableName | Parent_columnName | Schema | table | column | constraint_name |
+| ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+| dbo | drivers | driverId | dbo | pitStops | driverId | FK_PitStops_DriverID | 
+| dbo | drivers | driverId | dbo | lapTimes | driverId | FK_LapTimes_DriverID | 
+| dbo | drivers | driverId | dbo | driverStandings | driverId | FK_DriverStandings_DriverID | 
+| dbo | drivers | driverId | dbo | driverNumbers | driverID | PK_driverNumbers_driverID | 
+| dbo | drivers | driverId | dbo | resultDriverConstructor | driverID | PK_resultDriverConstructor_driverID | 
+| dbo | drivers | driverId | dbo | qualifying | driverId | FK_Qualifying_DriverID | 
+
 ### Example Query
 
 ```sql

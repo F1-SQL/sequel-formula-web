@@ -21,6 +21,15 @@ title: Constructors
 ### Where Used
 Where is this table referenced and what columns are used? The below table shows that information.
 
+### [dbo.constructors]
+| Parent_schemaName | Parent_tableName | Parent_columnName | Schema | table | column | constraint_name |
+| ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+| dbo | constructors | constructorId | dbo | constructorStandings | constructorId | FK_ConstructorStandings_ConstructorID | 
+| dbo | constructors | constructorId | dbo | constructorResults | constructorId | FK_ConstructorResults_ConstructorID | 
+| dbo | constructors | constructorId | dbo | driverNumbers | constructorID | PK_driverNumbers_constructorID | 
+| dbo | constructors | constructorId | dbo | resultDriverConstructor | constructorID | PK_resultDriverConstructor_constructorID | 
+| dbo | constructors | constructorId | dbo | qualifying | constructorId | FK_Qualifying_ConstructorID | 
+
 ### Example Query
 
 ```sql

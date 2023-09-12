@@ -18,6 +18,11 @@ This table has no foreign keys with any other tables
 ### Where Used
 Where is this table referenced and what columns are used? The below table shows that information.
 
+### [dbo.status]
+| Parent_schemaName | Parent_tableName | Parent_columnName | Schema | table | column | constraint_name |
+| ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+| dbo | status | statusId | dbo | results | statusId | FK_Results_StatusID | 
+
 ### Example Query
 
 ```sql

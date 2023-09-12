@@ -18,6 +18,11 @@ This table has no foreign keys with any other tables
 ### Where Used
 Where is this table referenced and what columns are used? The below table shows that information.
 
+### [dbo.locations]
+| Parent_schemaName | Parent_tableName | Parent_columnName | Schema | table | column | constraint_name |
+| ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+| dbo | locations | locationID | dbo | circuits | locationID | FK_Circuits_LocationID | 
+
 ### Example Query
 
 ```sql
