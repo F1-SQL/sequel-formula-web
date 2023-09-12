@@ -83,7 +83,7 @@ module.exports = {
             href: 'https://github.com/Sequel-Formula/sequel-formula-web',
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Rich In SQL. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Sequel Formula. Built with Docusaurus. Although we try and keep the data on this website correct and up to date, we do not state that it always is. The use of this data is at your own risk. This webstie is in no way affiliated with Formula 1 companies. F1, Formula One, Formula 1, FIA and related trademarks are trademarks of Formula One Licensing B.V`,
       },
       prism: {
         theme: lightCodeTheme,
