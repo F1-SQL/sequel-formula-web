@@ -38,6 +38,19 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Points',
+      collapsible: false,
+      items: [        
+        'points-system/sprint-qualifying',
+        'points-system/sprint',
+        'points-system/main-race',
+        'points-system/short-race',
+        'points-system/fastest-lap',
+        'points-system/drivers-championship',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Querying the database',
       collapsible: false,
       items: [        
