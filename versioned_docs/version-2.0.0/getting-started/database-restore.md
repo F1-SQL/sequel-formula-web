@@ -63,7 +63,7 @@ Make sure **media file** is selected from the drop down and select **Add**
 
 In the window that appears, navigate to the location of the extracted zip files and select the `.bak` file for your Instance.
 
-![Alt text](../../../../static/img/database-restore/ssms-restore-db-4.png)
+![Alt text](../../../static/img/database-restore/ssms-restore-db-4.png)
 
 You should see something like this
 
