@@ -63,6 +63,12 @@ module.exports = {
             docId: 'welcome',
             label: 'Documentation',
             position: 'left',
+          },
+          {
+            type: 'docsVersionDropdown',
+            position: 'right',
+            dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
+            dropdownActiveClassDisabled: true,
           },                 
           {
             href: 'https://github.com/Sequel-Formula',
@@ -74,11 +80,6 @@ module.exports = {
       footer: {
         style: 'dark',
         links: [
-          {
-            type: 'docsVersionDropdown',
-            dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
-            dropdownActiveClassDisabled: true,
-          },
           {
             label: 'GitHub',
             href: 'https://github.com/Sequel-Formula',
