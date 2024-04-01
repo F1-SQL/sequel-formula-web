@@ -14,7 +14,7 @@ module.exports = {
   tagline: 'A SQL Server Formula 1 Database',
   url: 'https://sequel-formula.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
@@ -63,6 +63,11 @@ module.exports = {
             docId: 'welcome',
             label: 'Documentation',
             position: 'left',
+          },
+          {
+            type: 'docsVersionDropdown',
+            position: 'right',
+            dropdownActiveClassDisabled: true,
           },                 
           {
             href: 'https://github.com/Sequel-Formula',

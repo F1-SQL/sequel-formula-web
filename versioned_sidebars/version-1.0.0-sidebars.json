@@ -1,0 +1,105 @@
+{
+  "docs": [
+    "welcome",
+    "race-calendar/upcoming-races",
+    {
+      "type": "category",
+      "label": "Getting Started",
+      "collapsible": false,
+      "items": [
+        "getting-started/getting-started",
+        "getting-started/database-restore"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Points",
+      "collapsible": false,
+      "items": [
+        "points-system/sprint-qualifying",
+        "points-system/sprint",
+        "points-system/main-race",
+        "points-system/short-race",
+        "points-system/fastest-lap",
+        "points-system/drivers-championship"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Querying the database",
+      "collapsible": false,
+      "items": [
+        "querying-the-database/database-schema",
+        {
+          "type": "category",
+          "label": "Tables",
+          "link": {
+            "type": "doc",
+            "id": "tables/index"
+          },
+          "collapsed": true,
+          "items": [
+            "tables/circuits",
+            "tables/circuitMap",
+            "tables/circuitTypes",
+            "tables/circuitDirection",
+            "tables/constructors",
+            "tables/constructorResults",
+            "tables/constructorStandings",
+            "tables/countries",
+            "tables/drivers",
+            "tables/driverNumbers",
+            "tables/driverStandings",
+            "tables/locations",
+            "tables/lapTimes",
+            "tables/nationalities",
+            "tables/positionText",
+            "tables/pitStops",
+            "tables/qualifying",
+            "tables/races",
+            "tables/results",
+            "tables/resultDriverConstructor",
+            "tables/resultType",
+            "tables/seasons",
+            "tables/status"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Example Queries",
+      "link": {
+        "type": "doc",
+        "id": "tables/index"
+      },
+      "collapsed": true,
+      "items": [
+        "querying-the-database/example-queries/results",
+        "querying-the-database/example-queries/latest-result"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "About The Project",
+      "collapsible": false,
+      "items": [
+        "about/database-creation",
+        "about/versioning",
+        "about/database-stats",
+        "about/sources",
+        "about/supported-versions"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Help & Support",
+      "collapsible": false,
+      "items": [
+        "help-support/faq",
+        "help-support/known-issues",
+        "help-support/contact"
+      ]
+    }
+  ]
+}
