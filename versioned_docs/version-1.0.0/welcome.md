@@ -5,7 +5,7 @@ pagination_prev: null
 title: Welcome
 ---
 
-![Banner](../../static/img/git-banner.png)
+![Banner](../static/img/git-banner.png)
 
 Welcome to Sequel Formula, this project has been created using Formula One data from [Ergast API](http://ergast.com/mrd) primarily with some of our own additions added in to enhance the [design](querying-the-database/database-schema). 
 
