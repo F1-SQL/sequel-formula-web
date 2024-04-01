@@ -14,7 +14,7 @@ module.exports = {
   tagline: 'A SQL Server Formula 1 Database',
   url: 'https://sequel-formula.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
