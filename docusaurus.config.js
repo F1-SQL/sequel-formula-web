@@ -75,6 +75,11 @@ module.exports = {
         style: 'dark',
         links: [
           {
+            type: 'docsVersionDropdown',
+            dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
+            dropdownActiveClassDisabled: true,
+          },
+          {
             label: 'GitHub',
             href: 'https://github.com/Sequel-Formula',
           },
