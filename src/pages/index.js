@@ -12,7 +12,7 @@ export default function Hello() {
       <div class={`${classes.main} ${classes.container}`}>
         <h1>A SQL Server Formula 1 Database</h1>
         <p class={classes.heroText}>
-          Sequel Formula is a Microsoft SQL Server database compiled using Ergast Formula One data,
+          Sequel Formula is a Microsoft SQL Server database compiled using OpenF1 Formula One data,
           the database uses the freely available CSV files to compile databases for all supported version
           of Microsoft SQL server to provide a usable database for <strong>educational and demonstration</strong> purposes.
         </p>
