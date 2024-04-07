@@ -5,7 +5,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const defaultOptions = {
-  editUrl: 'https://github.com/Sequel-Formula/sequel-formula-web/tree/master/',
+  editUrl: 'https://github.com/Sequel-Formula/f1-sql-web/tree/master/',
 };
 
 /** @type {import('@docusaurus/types').Config} */
@@ -90,7 +90,7 @@ module.exports = {
           },
           {
             label: 'Website Source',
-            href: 'https://github.com/Sequel-Formula/sequel-formula-web',
+            href: 'https://github.com/Sequel-Formula/f1-sql-web',
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Sequel Formula. Built with Docusaurus. Although we try and keep the data on this website correct and up to date, we do not state that it always is. The use of this data is at your own risk. This website is in no way affiliated with Formula 1 companies. F1, Formula One, Formula 1, FIA and related trademarks are trademarks of Formula One Licensing B.V`,
