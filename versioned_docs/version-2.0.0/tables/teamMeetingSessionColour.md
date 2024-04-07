@@ -19,3 +19,8 @@ Where is this table referenced and what columns are used? The below table shows 
 ### Example Query
 
 ### Example Output
+
+ |**team_key**|**colour_key**|**meeting_key**|**session_key**|  
+ |---|---|---|---|  
+ |1|1|1140|7763|  
+ |1|1|1140|7764| 

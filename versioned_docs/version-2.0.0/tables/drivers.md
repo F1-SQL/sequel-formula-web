@@ -17,22 +17,9 @@ title: Drivers
 | **last_name** |  | NVARCHAR(MAX) | ☑ |  |  | 
 | **name_acronym** |  | VARCHAR(3) | ☑ |  |  | 
 
-### Table Relationships
-
-![Drivers](/img/table-relationships/drivers.png)
-
 ### Where Used
 Where is this table referenced and what columns are used? The below table shows that information.
 
-### [dbo.drivers]
-| Parent_schemaName | Parent_tableName | Parent_columnName | Schema | table | column | constraint_name |
-| ------- | ------- | ------- | ------- | ------- | ------- | ------- |
-| dbo | drivers | driverId | dbo | pitStops | driverId | FK_PitStops_DriverID | 
-| dbo | drivers | driverId | dbo | lapTimes | driverId | FK_LapTimes_DriverID | 
-| dbo | drivers | driverId | dbo | driverStandings | driverId | FK_DriverStandings_DriverID | 
-| dbo | drivers | driverId | dbo | driverNumbers | driverID | PK_driverNumbers_driverID | 
-| dbo | drivers | driverId | dbo | resultDriverConstructor | driverID | PK_resultDriverConstructor_driverID | 
-| dbo | drivers | driverId | dbo | qualifying | driverId | FK_Qualifying_DriverID | 
 
 ### Example Query
 
@@ -57,7 +44,7 @@ FROM
 
 ### Example Output
 
-|**driverId**|**driverRef**|**number**|**code**|**forename**|**surname**|**dob**|**url**|**nationalityID**|  
-|---|---|---|---|---|---|---|---|---|  
-|1|hamilton|44|HAM|Lewis|Hamilton|1985-01-07|http://en.wikipedia.org/wiki/Lewis_Hamilton|10|  
-|2|heidfeld|0|HEI|Nick|Heidfeld|1977-05-10|http://en.wikipedia.org/wiki/Nick_Heidfeld|21| 
+ |**broadcast_name**|**country_code**|**driver_key**|**first_name**|**full_name**|**headshot_url**|**last_name**|**name_acronym**|  
+ |---|---|---|---|---|---|---|---|  
+ |M VERSTAPPEN|NED|33|Max|Max VERSTAPPEN|https://www.formula1.com/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png.transform/1col/image.png|Verstappen|VER|  
+ |S PEREZ|MEX|11|Sergio|Sergio PEREZ|https://www.formula1.com/content/dam/fom-website/drivers/S/SERPER01_Sergio_Perez/serper01.png.transform/1col/image.png|PEREZ|PER| 

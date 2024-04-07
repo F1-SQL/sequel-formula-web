@@ -15,10 +15,6 @@ title: Pit Stops
 | **pit_duration** |  | DECIMAL | ☑ |  |  | 
 | **session_key** |  | INT | ☑ |  |  | 
 
-### Table Relationships
-
-![Pit Stops](/img/table-relationships/pitStops.png)
-
 ### Where Used
 Where is this table referenced and what columns are used? The below table shows that information.
 

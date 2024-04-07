@@ -22,3 +22,8 @@ Where is this table referenced and what columns are used? The below table shows 
 ### Example Query
 
 ### Example Output
+
+ |**circuit_key**|**date_end**|**date_start**|**meeting_key**|**session_key**|**session_name**|**type_key**|  
+ |---|---|---|---|---|---|---|  
+ |63|2023-02-23 16:30:00.000000|2023-02-23 07:00:00.000000|1140|9222|Practice 1|1|  
+ |63|2023-02-24 16:30:00.000000|2023-02-24 07:00:00.000000|1140|7763|Practice 2|1| 

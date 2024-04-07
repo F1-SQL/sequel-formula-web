@@ -25,3 +25,8 @@ Where is this table referenced and what columns are used? The below table shows 
 ### Example Query
 
 ### Example Output
+
+ |**category**|**date**|**driver_key**|**flag**|**lap_number**|**meeting_key**|**message**|**scope**|**sector**|**session_key**|  
+ |---|---|---|---|---|---|---|---|---|---|  
+ |Flag|2023-02-23 07:00:00.000000|0|GREEN|0|1140|GREEN LIGHT - PIT EXIT OPEN|Track|0|9222|  
+ |Flag|2023-02-23 07:00:00.000000|0|GREEN|0|1140|GREEN LIGHT - PIT EXIT OPEN|Track|0|9222| 

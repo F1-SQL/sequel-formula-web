@@ -12,18 +12,8 @@ title: Seasons
 | **year** |  | NVARCHAR(MAX) | ☑ |  | Primary key e.g. 1950 | 
 | **url** |  | NVARCHAR(MAX) | ☑ |  | Season Wikipedia page | 
 
-### Table Relationships
-
-This table has no foreign keys with any other tables
-
 ### Where Used
 Where is this table referenced and what columns are used? The below table shows that information.
-
-### [dbo.seasons]
-| Parent_schemaName | Parent_tableName | Parent_columnName | Schema | table | column | constraint_name |
-| ------- | ------- | ------- | ------- | ------- | ------- | ------- |
-| dbo | seasons | year | dbo | driverNumbers | season | PK_driverNumbers_season | 
-| dbo | seasons | year | dbo | races | year | FK_Races_Year | 
 
 ### Example Query
 
@@ -37,7 +27,7 @@ FROM
 
 ### Example Output
 
-|**year**|**url**|  
-|---|---| 
-|1950|http://en.wikipedia.org/wiki/1950_Formula_One_season| 
-|1951|http://en.wikipedia.org/wiki/1951_Formula_One_season| 
+ |**season_key**|**year**|**url**|  
+ |---|---|---|  
+ |1|2023|http://en.wikipedia.org/wiki/2023_Formula_One_World_Championship|  
+ |2|2024|https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship| 

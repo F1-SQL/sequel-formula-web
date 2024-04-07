@@ -8,20 +8,13 @@ title: Countries
 ### [dbo.countries]
 | Column name | Key | Data type | Allow NULLs | Default | Description |
 | ------- | ------- | ------- | ------- | ------- | ------- |
-| **countryID** |  Primary Key | INT | ☐ |  |  | 
-| **country** |  | VARCHAR(255) | ☑ |  | Name of the country, E.G. United States | 
-
-### Table Relationships
-
-This table has no foreign keys with any other tables
+| **country_key** |  | NVARCHAR(MAX) | ☑ |  |  | 
+| **country_name** |  | NVARCHAR(MAX) | ☑ |  |  | 
+| **country_code** |  | NVARCHAR(MAX) | ☑ |  |  | 
 
 ### Where Used
 Where is this table referenced and what columns are used? The below table shows that information.
 
-### [dbo.countries]
-| Parent_schemaName | Parent_tableName | Parent_columnName | Schema | table | column | constraint_name |
-| ------- | ------- | ------- | ------- | ------- | ------- | ------- |
-| dbo | countries | countryID | dbo | circuits | countryID | FK_Circuits_CountryID | 
 
 ### Example Query
 
@@ -35,7 +28,7 @@ FROM
 
 ### Example Output
 
-|**countryID**|**country**|  
-|---|---| 
-|1|Argentina| 
-|2|Australia| 
+ |**country_key**|**country_name**|**country_code**|  
+ |---|---|---|  
+ |5|Australia|AUS|  
+ |17|Austria|AUT| 

@@ -10,3 +10,23 @@ title: Compound Types
 | ------- | ------- | ------- | ------- | ------- | ------- |
 | **compound_key** |  | NVARCHAR(MAX) | ☑ |  |  | 
 | **compound_name** |  | NVARCHAR(MAX) | ☑ |  |  | 
+
+### Where Used
+Where is this table referenced and what columns are used? The below table shows that information.
+
+### Example Query
+
+```sql
+SELECT 
+	[countryID]
+    ,[country]
+FROM 
+	[dbo].[countries]
+```
+
+### Example Output
+
+ |**compound_key**|**compound_name**|  
+ |---|---|  
+ |1|Soft|  
+ |2|Unknown| 

@@ -17,3 +17,8 @@ Where is this table referenced and what columns are used? The below table shows 
 ### Example Query
 
 ### Example Output
+
+ |**session_type_key**|**type_name**|  
+ |---|---|  
+ |1|Practice|  
+ |2|Qualifying| 

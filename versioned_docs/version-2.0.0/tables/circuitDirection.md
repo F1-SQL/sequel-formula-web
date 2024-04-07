@@ -2,23 +2,23 @@
 sidebar_position: 1
 pagination_next: null
 pagination_prev: null
-title: Driver Session
+title: Circuit Direction
 ---
 
-### [dbo.driverSession]
+### [dbo.circuitDirection]
 | Column name | Key | Data type | Allow NULLs | Default | Description |
 | ------- | ------- | ------- | ------- | ------- | ------- |
-| **driver_key** |  | INT | ☐ |  |  | 
-| **session_key** |  | INT | ☐ |  |  | 
+| **direction_key** |  | NVARCHAR(MAX) | ☑ |  |  | 
+| **circuitDirection** |  | NVARCHAR(MAX) | ☑ |  | Direction of circuit E.G. Clockwise | 
 
-### Where Used
+ ### Where Used
 Where is this table referenced and what columns are used? The below table shows that information.
 
 ### Example Query
 
 ### Example Output
 
- |**driver_key**|**session_key**|  
- |---|---|  
- |33|7763|  
- |33|7765| 
+|**direction_key**|**circuitDirection**|  
+|---|---|  
+|1|Clockwise|  
+|2|Anti-clockwise| 

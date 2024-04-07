@@ -17,3 +17,8 @@ Where is this table referenced and what columns are used? The below table shows 
 ### Example Query
 
 ### Example Output
+
+ |**meeting_type_key**|**circuitType**|  
+ |---|---|  
+ |1|Testing|  
+ |2|Grand Prix| 

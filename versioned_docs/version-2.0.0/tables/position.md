@@ -20,3 +20,8 @@ Where is this table referenced and what columns are used? The below table shows 
 ### Example Query
 
 ### Example Output
+
+ |**date**|**driver_key**|**meeting_key**|**position**|**session_key**|  
+ |---|---|---|---|---|  
+ |2023-02-23 06:54:49.318000|33|1140|1|9222|  
+ |2023-02-23 06:54:49.318000|2|1140|2|9222| 

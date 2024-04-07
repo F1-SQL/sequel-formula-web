@@ -17,3 +17,8 @@ Where is this table referenced and what columns are used? The below table shows 
 ### Example Query
 
 ### Example Output
+
+ |**team_key**|**team_name**|  
+ |---|---|  
+ |1|Alfa Romeo|  
+ |2|AlphaTauri| 

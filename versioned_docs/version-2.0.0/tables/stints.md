@@ -23,3 +23,8 @@ Where is this table referenced and what columns are used? The below table shows 
 ### Example Query
 
 ### Example Output 
+
+ |**driver_key**|**lap_end**|**lap_start**|**meeting_key**|**session_key**|**stint_number**|**tyre_age_at_start**|**compound_key**| 
+ |---|---|---|---|---|---|---|---|  
+ |4|1|1|1140|7763|1|7|6|  
+ |20|1|1|1140|7763|1|10|6| 

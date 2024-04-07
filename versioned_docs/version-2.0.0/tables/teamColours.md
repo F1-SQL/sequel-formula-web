@@ -17,3 +17,8 @@ Where is this table referenced and what columns are used? The below table shows 
 ### Example Query
 
 ### Example Output
+
+ |**colour_key**|**colour_value**|  
+ |---|---|  
+ |1|C92D4B|  
+ |2|5E8FAA| 
