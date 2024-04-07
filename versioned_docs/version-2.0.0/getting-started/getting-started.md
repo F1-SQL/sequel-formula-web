@@ -8,9 +8,9 @@ title: Getting Started
 
 ### Downloading the Latest Release
 
-The easiest way to get started is to download the latest release from GitHub [here](https://github.com/Sequel-Formula/Sequel-Formula/releases) and restore one of the available backups to your instance. 
+The easiest way to get started is to download the latest release from GitHub [here](https://github.com/f1-sql/f1-sql/releases) and restore one of the available backups to your instance. 
 
-You can find out if your version of SQL Server is supported by Sequel Formula [here](../about/supported-versions)
+You can find out if your version of SQL Server is supported by F1 SQL [here](../about/supported-versions)
 
 ### Restoring the database
 

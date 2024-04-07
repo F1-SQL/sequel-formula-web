@@ -11,4 +11,4 @@ We took the decision to remove the keys from this version of the database schema
 
 ### Why are there no indexes?
 
-We have never had indexes on the Sequel Formula database because we wanted to give people the option to add indexes themselves.
+We have never had indexes on the F1 SQL database because we wanted to give people the option to add indexes themselves.

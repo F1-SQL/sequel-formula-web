@@ -5,7 +5,7 @@ pagination_prev: null
 title: How it is Made
 ---
 
-Sequel Formula is made using freely available Formula One data provided by the [Ergast](http://ergast.com/mrd) API, the service provides the files in a CSV format which is downloaded and processed by our build routine. 
+F1 SQL is made using freely available Formula One data provided by the [Ergast](http://ergast.com/mrd) API, the service provides the files in a CSV format which is downloaded and processed by our build routine. 
 
 To do this we download the latest copy of the zip file from the [Ergast](http://ergast.com/mrd) website using PowerShell, the process it using the following steps
 
@@ -21,4 +21,4 @@ To do this we download the latest copy of the zip file from the [Ergast](http://
 9. Once we are happy that the database has been created a backup is created. 
 10. Once the backup has been created and if the cleanDatabase flag is provided the database will be dropped from the instance. 
 
-The Source for the script we use to build the database can be found [here](https://github.com/Sequel-Formula/Sequel-Formula/blob/main/build_database.ps1)
+The Source for the script we use to build the database can be found [here](https://github.com/f1-sql/f1-sql/blob/main/build_database.ps1)

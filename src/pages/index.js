@@ -12,7 +12,7 @@ export default function Hello() {
       <div class={`${classes.main} ${classes.container}`}>
         <h1>A SQL Server Formula 1 Database</h1>
         <p class={classes.heroText}>
-          Sequel Formula is a Microsoft SQL Server database compiled using OpenF1 Formula One data,
+          F1 SQL is a Microsoft SQL Server database compiled using OpenF1 Formula One data,
           the database uses the freely available CSV files to compile databases for all supported version
           of Microsoft SQL server to provide a usable database for <strong>educational and demonstration</strong> purposes.
         </p>
@@ -28,8 +28,8 @@ export default function Hello() {
             Download The Data
           </Button>
         </div> 
-        <img src="https://github.com/Sequel-Formula/Sequel-Formula/actions/workflows/powershell.yml/badge.svg"></img>
-        <img src="https://img.shields.io/github/stars/Sequel-Formula/sequel-formula"></img>    
+        <img src="https://github.com/f1-sql/f1-sql/actions/workflows/powershell.yml/badge.svg"></img>
+        <img src="https://img.shields.io/github/stars/f1-sql/f1-sql"></img>    
       </div>
     </Layout>
   );
