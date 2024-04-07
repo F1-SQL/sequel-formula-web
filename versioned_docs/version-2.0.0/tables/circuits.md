@@ -8,15 +8,15 @@ title: Circuits
 ### [dbo.circuits]
 | Column name | Key | Data type | Allow NULLs | Default | Description |
 | ------- | ------- | ------- | ------- | ------- | ------- |
-| **circuitId** |  Primary Key | INT | ☐ |  |  | 
-| **circuitRef** |  | VARCHAR(255) | ☐ |  | Unique circuit identifier | 
-| **name** |  | VARCHAR(255) | ☐ |  | Circuit name | 
-| **alt** |  | INT | ☑ |  | Altitude (metres) | 
-| **url** |  | VARCHAR(255) | ☐ |  | Circuit Wikipedia page | 
-| **locationID** |  | INT | ☑ |  | Foreign key links to locations | 
-| **countryID** |  | INT | ☑ |  | Foreign Key link to countries | 
-| **circuitDirectionID** |  | INT | ☑ |  | Foreign key link to circuitDirection | 
-| **circuitTypeID** |  | INT | ☑ |  | Foreign key link to circuitType | 
+| **circuit_key** |  | NVARCHAR(MAX) | ☑ |  |  | 
+| **circuit_short_name** |  | NVARCHAR(MAX) | ☑ |  |  | 
+| **name** |  | NVARCHAR(MAX) | ☑ |  | Circuit name | 
+| **location_key** |  | NVARCHAR(MAX) | ☑ |  |  | 
+| **country_key** |  | NVARCHAR(MAX) | ☑ |  |  | 
+| **direction_key** |  | NVARCHAR(MAX) | ☑ |  |  | 
+| **type_key** |  | NVARCHAR(MAX) | ☑ |  |  | 
+| **alt** |  | NVARCHAR(MAX) | ☑ |  | Altitude (metres) | 
+| **url** |  | NVARCHAR(MAX) | ☑ |  | Circuit Wikipedia page | 
 
 ### Table Relationships
 

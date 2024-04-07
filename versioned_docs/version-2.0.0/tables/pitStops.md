@@ -8,13 +8,12 @@ title: Pit Stops
 ### [dbo.pitStops]
 | Column name | Key | Data type | Allow NULLs | Default | Description |
 | ------- | ------- | ------- | ------- | ------- | ------- |
-| **raceId** |  Primary Key | INT | ☐ |  |  | 
-| **driverId** |  Primary Key | INT | ☐ |  | Foreign key link to drivers table | 
-| **stop** |  Primary Key | INT | ☐ |  | Stop number | 
-| **lap** |  | INT | ☐ |  | Lap number | 
-| **time** |  | TIME | ☐ |  | Time of stop e.g. "13:52:25" | 
-| **milliseconds** |  | INT | ☑ |  | Duration of stop in milliseconds | 
-| **duration** |  | DECIMAL | ☑ |  | Duration of stop in milliseconds | 
+| **date** |  | DATETIME2 | ☑ |  |  | 
+| **driver_key** |  | INT | ☑ |  |  | 
+| **lap_number** |  | INT | ☑ |  |  | 
+| **meeting_key** |  | INT | ☑ |  |  | 
+| **pit_duration** |  | DECIMAL | ☑ |  |  | 
+| **session_key** |  | INT | ☑ |  |  | 
 
 ### Table Relationships
 

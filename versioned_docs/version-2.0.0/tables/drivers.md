@@ -8,15 +8,14 @@ title: Drivers
 ### [dbo.drivers]
 | Column name | Key | Data type | Allow NULLs | Default | Description |
 | ------- | ------- | ------- | ------- | ------- | ------- |
-| **driverId** |  Primary Key | INT | ☐ |  |  | 
-| **driverRef** |  | VARCHAR(255) | ☐ |  | Unique driver identifier | 
-| **number** |  | INT | ☑ |  | Permanent driver number | 
-| **code** |  | VARCHAR(3) | ☑ |  | Driver code e.g. "ALO" | 
-| **forename** |  | VARCHAR(255) | ☐ |  | Driver forename | 
-| **surname** |  | VARCHAR(255) | ☐ |  | Driver surname | 
-| **dob** |  | DATE | ☑ |  | Driver date of birth | 
-| **url** |  | VARCHAR(2048) | ☐ |  | Driver Wikipedia page | 
-| **nationalityID** | FK_Drivers_NationalityID (dbo.nationalities nationalityID) | INT | ☑ |  | Foreign Key to nationalities | 
+| **broadcast_name** |  | NVARCHAR(MAX) | ☑ |  |  | 
+| **country_code** |  | VARCHAR(3) | ☑ |  |  | 
+| **driver_key** |  | INT | ☐ |  |  | 
+| **first_name** |  | NVARCHAR(MAX) | ☑ |  |  | 
+| **full_name** |  | NVARCHAR(MAX) | ☑ |  |  | 
+| **headshot_url** |  | NVARCHAR(MAX) | ☑ |  |  | 
+| **last_name** |  | NVARCHAR(MAX) | ☑ |  |  | 
+| **name_acronym** |  | VARCHAR(3) | ☑ |  |  | 
 
 ### Table Relationships
 

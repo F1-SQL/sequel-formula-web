@@ -8,8 +8,8 @@ title: Locations
 ### [dbo.locations]
 | Column name | Key | Data type | Allow NULLs | Default | Description |
 | ------- | ------- | ------- | ------- | ------- | ------- |
-| **locationID** |  Primary Key | INT | ☐ |  |  | 
-| **locationName** |  | VARCHAR(255) | ☑ |  | Location Name E.G. Las Vegas | 
+| **location_key** |  | NVARCHAR(MAX) | ☑ |  |  | 
+| **locationName** |  | NVARCHAR(MAX) | ☑ |  | Location Name E.G. Las Vegas | 
 
 ### Table Relationships
 
