@@ -1,5 +1,5 @@
 {
-  "name": "sequel-formula-web",
+  "name": "f1-sql-web",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -25,7 +25,8 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^2.4.3"
+    "@docusaurus/module-type-aliases": "^2.4.3",
+    "docusaurus": "^1.14.7"
   },
   "browserslist": {
     "production": [
