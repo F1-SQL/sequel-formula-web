@@ -5,11 +5,11 @@ pagination_prev: null
 title: Race Calendar
 ---
 
-Below are is the race calendar for 2023, this shows all of the races, the date of the Race (Sunday) and the date that Sequel Formula should be updated to include data from this event.
+Below are is the race calendar for 2023, this shows all of the races, the date of the Race (Sunday) and the date that F1 SQL should be updated to include data from this event.
 
 ### 2024
 
-|Round|Race Location|Race Date|Sequel Formula Date|Completed|
+|Round|Race Location|Race Date|F1 SQL Date|Completed|
 |---|---|---|---|
 |1|Bahrain Grand Prix|2024-03-02|2024-03-04|☑|
 |2|Saudi Arabian Grand Prix|2024-03-09|   ||
@@ -38,7 +38,7 @@ Below are is the race calendar for 2023, this shows all of the races, the date o
 
 ### 2023
 
-|Round|Race Location|Race Date|Sequel Formula Date|Completed|
+|Round|Race Location|Race Date|F1 SQL Date|Completed|
 |---|---|---|---|
 |1|Sakhir|March 5 2023|   |☑|
 |2|Jeddah|March 19 2023|   |☑|

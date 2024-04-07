@@ -9,4 +9,4 @@ title: Database Schema
 You can find out detail about each individual table [here](../tables/)
 :::
 
-![](/img/sequel-formula-db-diag.png)
+![](/img/F1-SQL-db-diag.png)
