@@ -7,10 +7,10 @@ import classes from './index.module.css';
 
 export default function Hello() {
   return (
-    <Layout title="A SQL Server Formula 1 Database" style={{ position: 'relative' }}>
+    <Layout title="A Formula 1 SQL Server Database" style={{ position: 'relative' }}>
 
       <div class={`${classes.main} ${classes.container}`}>
-        <h1>A SQL Server Formula 1 Database</h1>
+        <h1>A Formula 1 SQL Server Database</h1>
         <p class={classes.heroText}>
           F1 SQL is a Microsoft SQL Server database compiled using Ergast Formula One data,
           the database uses the freely available CSV files to compile databases for all supported version
