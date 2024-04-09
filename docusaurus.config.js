@@ -12,7 +12,7 @@ const defaultOptions = {
 module.exports = {
   title: 'F1 SQL',
   tagline: 'A SQL Server Formula 1 Database',
-  url: 'https://f1-sql.com',
+  url: 'https://f1sql.com',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
