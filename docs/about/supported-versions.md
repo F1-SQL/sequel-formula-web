@@ -9,7 +9,6 @@ title: Supported Versions
 
 You can find which versions of SQL Server are supported by F1 SQL, these are the versions we are currently producing backups and database schema's for.
 
-* SQL Server 2014
 * SQL Server 2016
 * SQL Server 2022
 * SQL Server 2019
