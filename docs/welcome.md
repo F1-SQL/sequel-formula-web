@@ -7,7 +7,7 @@ title: Welcome
 
 ![Banner](../static/img/git-banner.png)
 
-Welcome to F1 SQL, this project has been created using Formula One data from [Ergast API](http://ergast.com/mrd) primarily with some of our own additions added in to enhance the [design](querying-the-database/database-schema). 
+Welcome to F1 SQL, this project has been created using Formula One data from [OpenF1](https://openf1.org/) primarily with some of our own additions added in to enhance the [design](querying-the-database/database-schema). 
 
 In this project you will find everything you need to get a copy of F1 SQL up and running on your own [supported](about/supported-versions) instance of Microsoft SQL Server.
 

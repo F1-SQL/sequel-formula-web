@@ -7,7 +7,8 @@ title: Data Sources
 
 Below are a list of sources used to construct the database, this is regularly updated as new sources are used. 
 
-- https://ergast.com/mrd
+- https://ergast.com/mrd (version 1 data)
+- https://openf1.org/ (version 2 data)
 
 - https://en.wikipedia.org/wiki/List_of_Formula_One_engine_manufacturers
 - https://en.wikipedia.org/wiki/List_of_Formula_One_constructors

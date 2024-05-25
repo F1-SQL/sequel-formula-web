@@ -6,7 +6,7 @@
 
 
 # F1 SQL
-F1 SQL is a Microsoft SQL Server database designed and developed using the freely available data from [Ergast API](https://ergast.com/mrd/) 
+F1 SQL is a Microsoft SQL Server database designed and developed using the freely available data from [OpenF1](https://openf1.org/) 
 
 This project is maintained for education and demonstration purposes.
 

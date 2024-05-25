@@ -5,9 +5,9 @@ pagination_prev: null
 title: How it is Made
 ---
 
-F1 SQL is made using freely available Formula One data provided by the [Ergast](http://ergast.com/mrd) API, the service provides the files in a CSV format which is downloaded and processed by our build routine. 
+F1 SQL is made using freely available Formula One data provided by the [OpenF1](https://openf1.org/) API, the service provides the files in a CSV format which is downloaded and processed by our build routine. 
 
-To do this we download the latest copy of the zip file from the [Ergast](http://ergast.com/mrd) website using PowerShell, the process it using the following steps
+To do this we download the latest copy of the zip file from the [OpenF1](https://openf1.org/) website using PowerShell, the process it using the following steps
 
 1. Extract the zip file into the require location.
 2. Rename all of the zip files to remove any `_` in the file name.
